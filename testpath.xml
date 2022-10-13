@@ -1,0 +1,58 @@
+<OverlayData>
+	<MarkerCategory Name="resourcenode" DisplayName="Resource Nodes">
+		<MarkerCategory Name="wood" DisplayName="Wood" iconFile="Data/Wood.png" defaulttoggle="0"/>
+		<MarkerCategory Name="ore" DisplayName="Ore" iconFile="Data/Ore.png" defaulttoggle="0"/>
+		<MarkerCategory Name="plant" DisplayName="Plant" iconFile="Data/Plant.png" defaulttoggle="0"/>
+		<MarkerCategory Name="unboundmagic" DisplayName="Unbound Magic" iconFile="Data/Unbound_Magic.png" iconSize="0.5"/>
+	</MarkerCategory>
+	<MarkerCategory Name="taco" DisplayName="TacO Base Markers">
+		<MarkerCategory Name="chest" DisplayName="Chests" iconFile="Data/Chest.png"/>
+	</MarkerCategory>
+	<POIs>
+		<POI MapID="650" xpos="-412.018" ypos="335.793" zpos="656.96" type="taco" GUID="M++BHfOKhkWQYEWGMj8gFQ=="/>
+		<POI MapID="650" xpos="-431.765" ypos="335.837" zpos="659.874" type="resourcenode.ore" GUID="/h7Ju94Iyky9hkqnWnEiOA=="/>
+		<POI MapID="650" xpos="-443.326" ypos="338.455" zpos="655.655" type="resourcenode.plant" GUID="R9UEEX8mNEicJkHSfpeuEQ=="/>
+		<POI MapID="650" xpos="-440.89" ypos="336.162" zpos="663.343" type="resourcenode.ore" GUID="s1AMW7WknUqivJNx2YuMYQ=="/>
+		<POI MapID="650" xpos="-446.02" ypos="335.814" zpos="688.248" type="resourcenode.ore" GUID="Av2rmTUrK0GSqQy9o7xEFg=="/>
+		<POI MapID="650" xpos="-455.14" ypos="334.003" zpos="675.91" type="resourcenode.plant" GUID="AP2DDzgm/0+RLPv/Gv8b2Q=="/>
+		<POI MapID="650" xpos="-484.462" ypos="328.522" zpos="687.742" type="resourcenode.plant" GUID="iz6HgOAFt0yDwfgntPKhdg=="/>
+		<POI MapID="650" xpos="-482.029" ypos="326.977" zpos="654.523" type="resourcenode.ore" GUID="FEsF7DQSaE+oDarxUlT0Xg=="/>
+		<POI MapID="650" xpos="-495.315" ypos="326.996" zpos="689.114" type="resourcenode.wood" GUID="JxdveZqSsEin3J2FoEISzw=="/>
+		<POI MapID="650" xpos="-513.66" ypos="327.647" zpos="645.448" type="taco" GUID="OZSRysdgJEOyhYpAf+KZ5g=="/>
+		<POI MapID="650" xpos="-503.652" ypos="327.647" zpos="632.031" type="resourcenode.ore" GUID="AFFQ/pDCSU+Lf4nll+Gchg=="/>
+		<POI MapID="650" xpos="-531.634" ypos="327.799" zpos="594.227" type="resourcenode.plant" GUID="ZlkvjK3HS0GjLZIXYuZl3g=="/>
+		<POI MapID="650" xpos="-528.151" ypos="327.802" zpos="584.372" type="taco" GUID="nR/Mtm/vxEmCP6ZkI9Gipw=="/>
+		<POI MapID="650" xpos="-553.429" ypos="327.936" zpos="571.775" type="taco" GUID="TX8oIcNpdEqeujS/BYoXSA=="/>
+		<POI MapID="650" xpos="-563.938" ypos="328.932" zpos="582.348" type="resourcenode.unboundmagic" GUID="NlDLKA1uvUi20SFsiCI9Kg=="/>
+		<POI MapID="650" xpos="-577.701" ypos="327.799" zpos="562.744" type="taco" GUID="Nucs0v8q1EC1l5qwnK/aXQ=="/>
+		<POI MapID="650" xpos="-603.407" ypos="327.23" zpos="601.574" type="taco" GUID="iXKUTjWHs0iSUgneHgTCyg=="/>
+		<POI MapID="650" xpos="-574.896" ypos="326.942" zpos="637.231" type="taco" GUID="n7xHYBo2kEakQSDo556NAA=="/>
+		<POI MapID="650" xpos="-598.803" ypos="326.699" zpos="673.337" type="taco" GUID="w9Iz441Q7EWrohi74EMcbg=="/>
+		<POI MapID="650" xpos="-599.328" ypos="326.883" zpos="688.05" type="resourcenode.ore" GUID="gHqmnvfQKkiBdnRUe+gGzg=="/>
+		<POI MapID="650" xpos="-596.986" ypos="326.964" zpos="657.622" type="taco" GUID="N5GLB7HSTUqBSxwx9cSt6Q=="/>
+		<POI MapID="650" xpos="-548.055" ypos="327.045" zpos="667.848" type="resourcenode.ore" GUID="AnjmZjmnUkyXfEigXVVexg=="/>
+		<POI MapID="650" xpos="-561.535" ypos="326.969" zpos="690.078" type="taco" GUID="iAb6kWLAYUiLFAQ/F4ndSA=="/>
+		<POI MapID="650" xpos="-570.343" ypos="326.969" zpos="692.442" type="resourcenode.wood" GUID="4eP5RYWzD02C48hycHAy/g=="/>
+		<POI MapID="650" xpos="-559.772" ypos="326.969" zpos="699.335" type="taco" GUID="X9VATzzy0EGa60Ahw9dc7A=="/>
+		<POI MapID="650" xpos="-564.129" ypos="326.971" zpos="702.778" type="resourcenode.unboundmagic" GUID="/BRxdQfqEUaaiW/WE9vrJQ=="/>
+		<POI MapID="650" xpos="-567.631" ypos="327.318" zpos="707.367" type="resourcenode.unboundmagic" GUID="0TVlE6wzJEyc3GlYeTY2VA=="/>
+		<POI MapID="650" xpos="-563.395" ypos="327.318" zpos="713.037" type="resourcenode.unboundmagic" GUID="97GtnpSDcE2gx78wNCL+Yw=="/>
+		<POI MapID="650" xpos="-559.275" ypos="327.066" zpos="713.349" type="resourcenode.unboundmagic" GUID="AP2BRObulU2IibqBKaMxtQ=="/>
+		<POI MapID="650" xpos="-532.152" ypos="327.06" zpos="684.955" type="taco" GUID="Eca1sswOX0+y3WmEOkFjwQ=="/>
+		<POI MapID="650" xpos="-526.283" ypos="326.955" zpos="690.662" type="resourcenode.ore" GUID="wAEYx/cczES8z/VV8TjjMg=="/>
+		<POI MapID="650" xpos="-518.275" ypos="332.033" zpos="703.095" type="taco" GUID="shx465nNRkeVi/Pss7yyQQ=="/>
+		<POI MapID="650" xpos="-526.093" ypos="332.039" zpos="706.442" type="resourcenode.wood" GUID="7Nfa8WzXQUWpFi/FHh8NzQ=="/>
+		<POI MapID="650" xpos="-514.645" ypos="333.071" zpos="730.368" type="resourcenode.plant" GUID="pAaBZNYHjE+SIo+Lp49xdw=="/>
+		<POI MapID="650" xpos="-525.697" ypos="334.114" zpos="721.522" type="taco" GUID="XuGJbtt2PUS0kNMhbeOaTA=="/>
+		<POI MapID="650" xpos="-531.198" ypos="335.88" zpos="725.534" type="taco" GUID="EIbogujIBkWsdbv1ALzlGA=="/>
+		<POI MapID="650" xpos="-505.638" ypos="351.749" zpos="737.745" type="taco" GUID="Uwke9zJd+UKro/lgrg2UMw=="/>
+		<POI MapID="650" xpos="-478.867" ypos="352.451" zpos="730.546" type="resourcenode.plant" GUID="obdfyNyUm0CQjMb2jYgk5Q=="/>
+		<POI MapID="650" xpos="-460.03" ypos="351.513" zpos="710.512" type="resourcenode.plant" GUID="9pYWKPxFJ0GGAbmHKlSoSw=="/>
+		<POI MapID="650" xpos="-438.845" ypos="352.024" zpos="731.304" type="taco.chest" GUID="YHkIEOcLPkuS/UGE+NqRmg=="/>
+		<POI MapID="650" xpos="-413.871" ypos="335.991" zpos="719.051" type="resourcenode.plant" GUID="PUB4r5ndEUyQHtONOJavTA=="/>
+		<POI MapID="650" xpos="-387.833" ypos="335.683" zpos="711.173" type="taco.chest" GUID="TTGRj061pUGuoxT5bWabFA=="/>
+		<POI MapID="650" xpos="-386.925" ypos="335.683" zpos="705.37" type="taco.chest" GUID="8k+/kegNFkCopt4mOp7BCg=="/>
+		<POI MapID="650" xpos="-385.54" ypos="335.683" zpos="699.794" type="taco.chest" GUID="L5h9sOgkREuTpU79Zcdskw=="/>
+		<POI MapID="650" xpos="-427.165" ypos="336.133" zpos="692.148" type="resourcenode.unboundmagic" GUID="Jr59HwvG9UGHOOxS4mVeWg=="/>
+	</POIs>
+</OverlayData>
