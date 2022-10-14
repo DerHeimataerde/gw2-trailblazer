@@ -39,3 +39,7 @@ A video tutorial can be found here: https://youtu.be/HT_WsJlQRc8
 
 ## Compile:
 ``pyinstaller.exe --name gw2-trailblazer --onefile trailblazer.py``
+
+## Credits:
+- Stack Overflow 
+- https://wiki.guildwars2.com/wiki/API:MumbleLink/Example_implementation_(Python)
