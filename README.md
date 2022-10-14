@@ -32,6 +32,10 @@ Finally, export markers to a file. Pass the resultant xml file to GW2-trailblaze
 
 A video tutorial can be found here: https://youtu.be/HT_WsJlQRc8
 
+## Todo:
+- Dynamic speed calculation and multiplier in movement function
+- Route looping
+- Other interaction types
 
 ## Compile:
 ``pyinstaller.exe --name gw2-trailblazer --onefile trailblazer.py``
