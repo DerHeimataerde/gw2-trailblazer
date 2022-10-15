@@ -211,8 +211,8 @@ class Movement:
             interactTime = 4
 
         if (interactTime > 0):
-            #self.k.press(key)
-            #self.k.release(key)
+            self.k.press(key)
+            self.k.release(key)
             time.sleep(interactTime)
 
     def traverse(self):
