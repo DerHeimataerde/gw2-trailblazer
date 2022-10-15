@@ -136,6 +136,7 @@ class MumbleLink:
         return ctype_instance
 
 class Movement:
+    filepath = ""
     route = []
     markerPos = []
     markerVec = []
@@ -148,10 +149,10 @@ class Movement:
     w = WindowMgr()
     pause = True
 
-    def __init__(self):
-        with open(sys.argv[1]) as xml_file:
+    def __init__(self,file):
+        with open(file) as xml_file:
             data_dict = xmltodict.parse(xml_file.read())
-
+        self.filepath = file
         self.route = list(data_dict['OverlayData']['POIs']['POI'])
 
     def read(self, index):
@@ -210,12 +211,13 @@ class Movement:
             interactTime = 4
 
         if (interactTime > 0):
-            self.k.press(key)
-            self.k.release(key)
+            #self.k.press(key)
+            #self.k.release(key)
             time.sleep(interactTime)
 
     def traverse(self):
         #Starts player movement routine
+        print("Press PAUSE to start/pause. ESC to exit.")
         for i in range(len(self.route)):
             self.read(i)
             count = 0
@@ -224,6 +226,8 @@ class Movement:
                     time.sleep(1)
                 while (self.pause): # pauses movement if pause key pressed
                     time.sleep(1)
+                if count < 1:
+                    print("Moving to "+path.splitext(path.basename(self.filepath))[0]+"["+str(i)+"]["+self.route[i]['@type']+"]"+str(self.markerPos))
                 self.read(i)
                 self.rotate()
                 if (count > 4):
@@ -235,6 +239,7 @@ class Movement:
             self.interact(i)
         self.k.press(Key.space) # Jump at the end to signal route end
         self.k.release(Key.space)
+        print("Route END")
     
     def map(self):
         #Returns true if player is in correct map with respect to route file
@@ -255,12 +260,16 @@ def on_press(key, movement):
 
 def main():
     #check if xml path exists
-    if not(path.exists(sys.argv[1])):
+    if len(sys.argv) < 2:
+        file = input('Enter XML path: ')
+    else:
+        file = sys.argv[1]
+    if not(path.exists(file)):
         print("Path does not exist")
         os._exit(1)
 
     #ml = MumbleLink()
-    mv = Movement()
+    mv = Movement(file)
     w = WindowMgr()
     l = Listener(on_press=lambda event: on_press(event, movement=mv))
     l.start()
