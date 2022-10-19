@@ -6,6 +6,8 @@ First have a TacO marker route suitable for GW2-Trailblazer and pass it as an ar
 
 e.g.: ``gw2-trailblazer.exe "testroute.xml"``
 
+NOTE: Uses the pywin32 library to determine whether GW2 is in the foreground or background (to autopause the program). Because of this, running the program as administrator is necessary.
+
 To start traversing your route, press Pause while GW2 is the active window. If Pause is pressed again, the program will Pause sending inputs.
 Similarly, if GW2 is not in focus, the program will pause sending inputs.
 Pressing Escape will exit the program at any point.
@@ -39,6 +41,13 @@ A video tutorial can be found here: https://youtu.be/HT_WsJlQRc8
 - Dynamic speed calculation and multiplier in movement function
 - Route looping
 - Other interaction types
+
+## Problems:
+ - If you receive an alert from windows defender, read this: 
+https://stackoverflow.com/questions/44377666/pyinstaller-exe-throws-windows-defender-no-publisher
+You can also compile/analyze the source code here if you have any doubts.
+
+- 
 
 ## Compile:
 ``pyinstaller.exe --name gw2-trailblazer --onefile trailblazer.py``
