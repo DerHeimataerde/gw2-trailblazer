@@ -2,14 +2,15 @@
 Simulates inputs in Guild Wars 2 to traverse a route created with TacO markers, including environment interactions
 
 ## Usage:
-First have a TacO marker route suitable for GW2-Trailblazer and pass it as an argument.
-
-e.g.: ``gw2-trailblazer.exe "testroute.xml"``
-
 NOTES: 
 - Uses the pywin32 library to determine whether GW2 is in the foreground or background (to autopause the program). Because of this, running the program as administrator is necessary.
 - Requires A and D set to Turn and not Strafe
 - Is definitely against Anet TOS. Use at your own risk
+
+First, have a TacO marker route suitable for GW2-Trailblazer and pass it as an argument or when prompted. An example file is included and a tutorial on route creation is found below.
+
+e.g.: ``gw2-trailblazer.exe "testroute.xml"``
+
 
 To start traversing your route, press Pause while GW2 is the active window. If Pause is pressed again, the program will Pause sending inputs.
 Similarly, if GW2 is not in focus, the program will pause sending inputs.
