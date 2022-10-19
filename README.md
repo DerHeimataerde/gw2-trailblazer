@@ -48,8 +48,8 @@ A video tutorial can be found here: https://youtu.be/HT_WsJlQRc8
  - If you receive an alert from windows defender, read this: 
 https://stackoverflow.com/questions/44377666/pyinstaller-exe-throws-windows-defender-no-publisher
 You can also compile/analyze the source code here if you have any doubts.
-
-- 
+- If program is not run as administrator, it cannot detect whether GW2 is in the foreground or not and will not run
+- Program will close if a proper XML route file is not provided
 
 ## Compile:
 ``pyinstaller.exe --name gw2-trailblazer --onefile trailblazer.py``
