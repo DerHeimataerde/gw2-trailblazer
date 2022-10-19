@@ -8,6 +8,8 @@ e.g.: ``gw2-trailblazer.exe "testroute.xml"``
 
 NOTE: Uses the pywin32 library to determine whether GW2 is in the foreground or background (to autopause the program). Because of this, running the program as administrator is necessary.
 
+NOTE: Requires A and D set to Turn and not Strafe
+
 To start traversing your route, press Pause while GW2 is the active window. If Pause is pressed again, the program will Pause sending inputs.
 Similarly, if GW2 is not in focus, the program will pause sending inputs.
 Pressing Escape will exit the program at any point.
