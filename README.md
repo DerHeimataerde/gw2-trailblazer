@@ -1,5 +1,5 @@
 # gw2-trailblazer
-Simulates inputs in Guild Wars 2 to traverse a route created with TacO markers
+Simulates inputs in Guild Wars 2 to traverse a route created with TacO markers, including environment interactions
 
 ## Usage:
 First have a TacO marker route suitable for GW2-Trailblazer and pass it as an argument.
