@@ -16,7 +16,7 @@ A demo of GW2-Trailblazer in action can be found here: https://youtu.be/uLd5JCpL
 ## Creating a route for GW2-Trailblazer:
 Using TacO, place markers in the order you want your character to traverse. Currently, for interacting purposes, different marker types relate to different interaction times. You can set your TacO marker placement keybind in TacO under: GW2 Taco Settings > Rebind Keys > Add New Marker (Default Category 1). You can also change what Type of marker Default Category 1 is within the Marker Editor. Simply enable the Marker Editor in TacO, and click on the "1" icon in the bottom right and select one of the following:
 
-NOTE: If marker types are not VISIBLE, enable visibility by clicking: ``Filter Displayed Tactical Markers > X Categories Hidden >`` Enable any that are unchecked.
+NOTE: If marker types are NOT VISIBLE, enable visibility by clicking: ``Filter Displayed Tactical Markers > X Categories Hidden >`` and enable any that are unchecked.
 
 ``(taco): "TacO Base Markers" - Basic pathing``
 
