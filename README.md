@@ -3,7 +3,7 @@ Simulates inputs in Guild Wars 2 to traverse a route created with TacO markers, 
 
 ## Usage:
 NOTES: 
-- Uses the pywin32 library to determine whether GW2 is in the foreground or background (to autopause the program). Because of this, running the program as administrator is necessary.
+- Uses the pywin32 and pynput libraries. Because of this, running the program as administrator is necessary.
 - Requires A and D set to Turn and not Strafe
 - Is definitely against Anet TOS. Use at your own risk
 
@@ -43,7 +43,6 @@ A video tutorial can be found here: https://youtu.be/HT_WsJlQRc8
 
 ## Todo:
 - Dynamic speed calculation and multiplier in movement function
-- Route looping
 - Other interaction types
 
 ## Problems:
