@@ -19,6 +19,12 @@ If the player is not within the same map as the route file, the program will clo
 
 A demo of GW2-Trailblazer in action can be found here: https://youtu.be/uLd5JCpLF-M
 
+Extra Features:
+- Will attempt to jump over an obstacle if player gets stuck after 5 attempts to navigate to a marker. After 10 attempts, player will backtrack to previous marker.
+- Adjusts movement calculations depending on your average speed, determining which speed multiplier to use in calculation.
+- If XML file is called "test.XML", there will be no interactions, allowing player to traverse the route without pause. Useful for pathing testing.
+- Logs to console with info on current route and pathing.
+
 ## Creating a route for GW2-Trailblazer:
 Using TacO, place markers in the order you want your character to traverse. Currently, for interacting purposes, different marker types relate to different interaction times. You can set your TacO marker placement keybind in TacO under: GW2 Taco Settings > Rebind Keys > Add New Marker (Default Category 1). You can also change what Type of marker Default Category 1 is within the Marker Editor. Simply enable the Marker Editor in TacO, and click on the "1" icon in the bottom right and select one of the following:
 
@@ -37,13 +43,18 @@ Note: To delete all current markers on the map, go to: ``Marker Utilities > Remo
 
 ``(resourcenode.unboundmagic): "Resource Nodes - Unbound Magic" - Instant Harvest Items Leather/Fabric/Kourna Cache/Enchanted Chest``
 
+``(taco.jumpingpuzzle): "Jump Marker" - Will attempt to jump and move to the next marker``
+
+``(taco.tactical.adventure.floorislava): "Glide Marker" - Will attempt to glide and move to the next marker. Still in testing phase``
+
 Finally, export markers to a file. Pass the resultant xml file to GW2-trailblazer and press Pause to start trailblazing.
+The XML file can be opened and fine-tuned depending on your needs.
 
 A video tutorial can be found here: https://youtu.be/HT_WsJlQRc8
 
 ## Todo:
-- Dynamic speed calculation and multiplier in movement function
-- Other interaction types
+- Better Gliding
+- Optional pathing precision modulation
 
 ## Problems:
  - If you receive an alert from windows defender, read this: 
