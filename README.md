@@ -17,7 +17,9 @@ Similarly, if GW2 is not in focus, the program will pause sending inputs.
 Pressing Escape will exit the program at any point.
 If the player is not within the same map as the route file, the program will close.
 
-A demo of GW2-Trailblazer in action can be found here: https://youtu.be/uLd5JCpLF-M
+Two demos of GW2-Trailblazer in action can be found here: 
+https://youtu.be/_8mUnIb4SJg
+https://youtu.be/uLd5JCpLF-M
 
 Extra Features:
 - Will attempt to jump over an obstacle if player gets stuck after 5 attempts to navigate to a marker. After 10 attempts, player will backtrack to previous marker.
